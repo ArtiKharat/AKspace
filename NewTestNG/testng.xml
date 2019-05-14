@@ -1,0 +1,33 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="My Suite">
+	<parameter name="url" value="http://google.com" />
+	<test name="My tests">
+
+		<classes> <class name="p1.Test1" /> <class name="p1.Test2" /> </classes>
+		
+<!--
+		<classes>
+			<class name="p1.Test1">
+				<method>
+					<include name="m1" />
+				</method>
+			</class>
+			<class name="p1.Test2" />
+		</classes>
+
+		<packages>
+			<package name="p1" />
+			<package name="p1.p2" />
+		</packages>
+		<groups>
+			<run>
+				<include name="sanity" />
+			</run>
+		</groups>
+		
+		-->
+
+
+	</test>
+
+</suite>
